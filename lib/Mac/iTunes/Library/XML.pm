@@ -1,4 +1,4 @@
-package Mac::iTunes::XML;
+package Mac::iTunes::Library::XML;
 
 use 5.006;
 use warnings;
@@ -14,7 +14,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw() ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw( );
 
-our $VERSION = '0.01_02';
+our $VERSION = '0.01_03';
 
 =head1 NAME
 
