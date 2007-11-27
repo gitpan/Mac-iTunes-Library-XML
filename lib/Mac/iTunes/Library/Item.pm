@@ -11,18 +11,18 @@ our %EXPORT_TAGS = ( 'all' => [ qw() ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw( );
 
-our $VERSION = '0.01_03';
+our $VERSION = '0.01_04';
 
 my $dateRegex = '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z';
 
 =head1 NAME
 
-Mac::iTunes::Item - Perl extension for representing a item
+Mac::iTunes::Library::Item - Perl extension for representing a item
 (song, URL, video) within an iTunes library.
 
 =head1 SYNOPSIS
 
-  use Mac::iTunes::Item;
+  use Mac::iTunes::Library::Item;
 
   my $item = Mac::iTunes::Item->new(
   		'Track ID' => 1,
