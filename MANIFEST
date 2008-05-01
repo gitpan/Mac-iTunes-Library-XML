@@ -2,6 +2,7 @@ Changes
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP
+META.yml
 README
 TODO
 
@@ -14,4 +15,3 @@ t/Library.t
 t/iTunes_Music_Library.xml
 
 examples/iTunesStats.pl
-META.yml                                 Module meta-data (added by MakeMaker)
